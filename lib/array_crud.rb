@@ -44,11 +44,17 @@ def retrieve_last_element_from_array(array)
   array[-1]
 end
 
-
-
-
+describe "update_element_from_index" do 
+  it "takes in an argument of an array, an index number and element value and returns the updated element" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    index_number = 4
+    expect(update_element_from_index(array, 4, "totally")).to eq("totally")
+  end
+end
 
 def update_element_from_index(array, index_number, element)
-  foods = ["bacon", "eggs", "cheese"]
-  foods[1] = "onion"
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  index_number = 4
+  element = "totally"
+  array[index_number] = element
 end
