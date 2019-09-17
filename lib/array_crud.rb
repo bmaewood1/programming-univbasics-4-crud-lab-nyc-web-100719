@@ -37,7 +37,12 @@ end
 
 
 
-
+describe "retrieve_first_element_from_array" do 
+  it "takes in an argument of an array and returns the first element stored in the array" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(retrieve_first_element_from_array(array)).to eq("wow")
+  end
+end
 
 
 
