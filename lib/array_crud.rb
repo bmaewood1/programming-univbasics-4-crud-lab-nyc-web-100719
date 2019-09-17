@@ -34,30 +34,20 @@ def retrieve_element_from_index(array, index_number)
   array[index_number]
 end
 
-
-
-
-describe "retrieve_first_element_from_array" do 
-  it "takes in an argument of an array and returns the first element stored in the array" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(retrieve_first_element_from_array(array)).to eq("wow")
-  end
-end
-
-
-
-
-
-
-
-
-
-
-
 def retrieve_first_element_from_array(array)
-  foods = ["bacon", "eggs", "cheese"]
-  foods[0]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array[0]
 end
+
+
+
+
+
+
+
+
+
+
 
 def retrieve_last_element_from_array(array)
   foods = ["bacon", "eggs", "cheese"]
