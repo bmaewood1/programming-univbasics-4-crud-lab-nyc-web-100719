@@ -13,10 +13,11 @@ end
 
 def add_element_to_start_of_array(array, element)
   foods = ["bacon", "eggs", "cheese"]
-  foods.unshift
+  foods.unshift("bread")
 end
 
 def remove_element_from_end_of_array(array)
+  foods = ["bacon", "eggs", "cheese"]
   
 end
 
